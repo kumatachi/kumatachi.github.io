@@ -60,7 +60,7 @@ gulp.task('move:css', function() {
 gulp.task('move:html', function() {
 	gulp.src('./app/index.html')
 		.pipe(preprocess({
-			context: {NODE_ENV: process.env.NODE_ENV}
+			context: {NODE_ENV: process.env.NODE_ENV, isDev: build_options.isDev}
 		}))
 		.pipe(gulp.dest(build_path));
 });
