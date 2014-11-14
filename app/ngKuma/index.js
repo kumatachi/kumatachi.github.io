@@ -6,5 +6,5 @@
 require('./topBar/topBar.js');
 require('./home/home.js');
 require('./projects/projects.js');
-
+require('./contact/contact.js');
 module.exports = require('./module.js');
