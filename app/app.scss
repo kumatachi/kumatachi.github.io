@@ -1,4 +1,4 @@
-$primary-color: #DFA85E;
+$primary-color: #458CDD;
 $secondary-color: #e7e7e7;
 $alert-color: #f04124;
 $success-color: #43AC6A;
@@ -8,3 +8,70 @@ $header-font-family: 'Abel', sans-serif;
 $body-font-family: "Open Sans", sans-serif;
 
 @import "../bower_components/foundation/scss/foundation";
+
+body{
+	background-color: #ddd;
+}
+.home-content{
+	margin: 20px;
+	padding: 20px;
+	background-color: white;
+}
+.about-us-text{
+	padding-left: 10px;
+	font-family: grad,serif;
+	font-weight: 400;
+	font-size: 1.2em;
+}
+
+.bio-block{
+	border-top: 1px #eee solid;
+	.icon{
+		font-size: 2.5em;
+	}
+}
+
+.icon-bar{
+	background-color: inherit;
+	.item{
+		&:hover{
+			background-color: inherit;
+		}
+		float: right;
+		width: 10%;
+		padding: 5px;
+		font-size: 1.1em;
+		i{
+			&:hover{
+				color: #777;
+			}
+			font-style: normal;
+			color: #000;
+		}
+	}
+}
+
+
+@media #{$small-up} { }
+@media #{$small-only} {
+	.home-content{
+		margin: 5px;
+		padding: 10px;
+	}
+}
+
+@media #{$medium-up} {
+	.about-us-text{
+		font-size: 2em;
+	}
+}
+@media #{$medium-only} { }
+
+@media #{$large-up} { }
+@media #{$large-only} { }
+
+@media #{$xlarge-up} { }
+@media #{$xlarge-only} { }
+
+@media #{$xxlarge-up} { }
+@media #{$xxlarge-only} { }
