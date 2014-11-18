@@ -5979,6 +5979,8 @@ body {
   border-top: 1px #eee solid; }
   .bio-block .icon {
     font-size: 2.5em; }
+  .bio-block .img-block {
+    margin: 10px; }
 
 .icon-bar {
   background-color: inherit; }
