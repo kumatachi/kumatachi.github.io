@@ -27,10 +27,29 @@ body{
 	.icon{
 		font-size: 2.5em;
 	}
-	.img-block{
-		margin: 10px 10px 10px 0;
+	.img-block {
+		margin: 10px 25px 10px 0;
 		&.right {
 			text-align: right;
+			margin-left: 25px;
+			margin-right: 0px;
+		}
+	}
+
+	h3 {
+		margin-top: 10px;
+		display: inline-block;
+	}
+	.social-icons {
+		display: inline-block;
+		margin-top: 10px;
+		margin-right: 10px;
+		float: right;
+	}
+	.social-icons a {
+		font-size: .75em;
+		&:last-child {
+			margin-right: 0;
 		}
 	}
 }
