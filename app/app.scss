@@ -18,8 +18,6 @@ body{
 	background-color: white;
 }
 .about-us-text{
-	padding-left: 10px;
-	font-family: grad,serif;
 	font-weight: 400;
 	font-size: 1.2em;
 }
@@ -30,27 +28,21 @@ body{
 		font-size: 2.5em;
 	}
 	.img-block{
-		margin: 10px;
+		margin: 10px 10px 10px 0;
+		&.right {
+			text-align: right;
+		}
 	}
 }
 
-.icon-bar{
-	background-color: inherit;
-	.item{
-		&:hover{
-			background-color: inherit;
+.social-icons {
+	a {
+		color: inherit;
+		font-size: 1.75em;
+		&:hover {
+			color: #666;
 		}
-		float: right;
-		width: 10%;
-		padding: 5px;
-		font-size: 1.1em;
-		i{
-			&:hover{
-				color: #777;
-			}
-			font-style: normal;
-			color: #000;
-		}
+		margin: 0px 25px;
 	}
 }
 
@@ -65,7 +57,7 @@ body{
 
 @media #{$medium-up} {
 	.about-us-text{
-		font-size: 2em;
+		font-size: 1.25em;
 	}
 }
 @media #{$medium-only} { }

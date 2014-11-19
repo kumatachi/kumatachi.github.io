@@ -5970,8 +5970,6 @@ body {
   background-color: white; }
 
 .about-us-text {
-  padding-left: 10px;
-  font-family: grad, serif;
   font-weight: 400;
   font-size: 1.2em; }
 
@@ -5980,22 +5978,16 @@ body {
   .bio-block .icon {
     font-size: 2.5em; }
   .bio-block .img-block {
-    margin: 10px; }
+    margin: 10px 10px 10px 0; }
+    .bio-block .img-block.right {
+      text-align: right; }
 
-.icon-bar {
-  background-color: inherit; }
-  .icon-bar .item {
-    float: right;
-    width: 10%;
-    padding: 5px;
-    font-size: 1.1em; }
-    .icon-bar .item:hover {
-      background-color: inherit; }
-    .icon-bar .item i {
-      font-style: normal;
-      color: #000; }
-      .icon-bar .item i:hover {
-        color: #777; }
+.social-icons a {
+  color: inherit;
+  font-size: 1.75em;
+  margin: 0px 25px; }
+  .social-icons a:hover {
+    color: #666; }
 
 @media only screen and (max-width: 40em) {
   .home-content {
@@ -6005,6 +5997,6 @@ body {
 
 @media only screen and (min-width:40.063em) {
   .about-us-text {
-    font-size: 2em; }
+    font-size: 1.25em; }
  }
 
